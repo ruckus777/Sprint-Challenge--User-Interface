@@ -194,14 +194,13 @@ p {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
 }
- .text-container {
+.text-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 48.5%;
   padding: 10px;
   margin-top: 30px;
-  
 }
 
 .middle-content {
@@ -231,6 +230,46 @@ p {
   justify-content: center;
 }
 
+#one {
+  background: teal;
+  color: white;
+}
+
+#two {
+  background-color: gold;
+}
+
+#three {
+  background-color: cadetblue;
+}
+
+#four{
+  background-color:coral;
+
+  }
+
+  #five{
+    background-color: crimson;
+  }
+#six{
+  background-color: forestgreen;
+}
+
+#seven{
+  background-color: darkorchid
+}
+
+#eight{
+  background-color:hotpink
+
+}
+#nine{
+  background-color: indigo;
+}
+
+#ten{
+  background-color: dodgerblue;
+}
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
