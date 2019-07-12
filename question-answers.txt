@@ -1,0 +1,19 @@
+Q:If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+A:semantic html is the use of tags to help organize and set up you webpage to be better read and make it simplier to add in your css
+
+Q:Name two big differences between display: block; and display: inline;.
+
+A:the diffrences is useing inline is added directly into your html where as display allows you to use the flex moduale to edit your positioning and visual placement by css only
+
+Q:What are the 4 areas of the box model?
+
+A:margin border padding and content
+
+Q:While using flexbox, what axis does the following property work on: align-items: center?
+
+A:horizontal
+
+Q:Explain why git is valuable to a team of developers.
+
+A:its allows better version control and better streamline colaborations
