@@ -169,9 +169,10 @@ body {
   margin-left: 30px;
 }
 
-.container about-page{
+.about{
   width:100%;
   height: auto;
+  border-bottom: 2px;
 }
 
 .container {
@@ -198,4 +199,16 @@ body {
   flex-wrap: wrap;
   width: 1000px;
   margin-bottom: 10px;
+}
+.box-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box-section .box-content {
+  width: 48.5%;
+  padding: 10px;
+  background-color: #ddd;
+  margin-top: 30px;
 }
