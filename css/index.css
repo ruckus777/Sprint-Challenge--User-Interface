@@ -194,14 +194,13 @@ p {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
 }
- .text-container {
+.text-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 48.5%;
   padding: 10px;
   margin-top: 30px;
-  
 }
 
 .middle-content {
@@ -229,6 +228,19 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#one {
+  background: teal;
+  color: white;
+}
+
+#two {
+  background-color: gold;
+}
+
+#three {
+  background-color: cadetblue;
 }
 
 .bottom-content {
