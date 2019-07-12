@@ -175,9 +175,16 @@ body {
 }
 
 .about {
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
   height: auto;
   border-bottom: 2px;
+  border-bottom-style: dotted;
+}
+
+.about p {
+  margin-bottom: 30px;
 }
 
 .container {
@@ -190,12 +197,10 @@ body {
 }
 
 .button {
-  border-style: groove;
-  box-sizing: content-box;
-  border-width: 2px;
-  border-color: black;
-
+  border: 3px solid black;
+  border-radius: 8px;
   margin: 10px;
+  padding: 5px;
 }
 
 .banner {
@@ -205,8 +210,6 @@ body {
   width: 1000px;
   margin-bottom: 10px;
 }
-
-
 
 .box-section {
   display: flex;
@@ -221,3 +224,37 @@ body {
   margin-top: 30px;
 }
 
+.box-content p {
+  margin-bottom: 25px;
+}
+
+.letswork p {
+  margin-bottom: 30px;
+}
+.letswork {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 2px;
+  border-bottom-style: dotted;
+}
+
+footer {
+  width: 100%;
+  background: black;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
